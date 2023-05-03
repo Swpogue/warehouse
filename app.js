@@ -75,6 +75,8 @@ function drawMyPackages(){
   <p>${package.to}-&nbsp &nbsp &nbsp &nbsp Priority- "${package.priorityLevel}" ID#'${package.trackingNumber}'</p>
   </div>
   `)
+  // document.getElementById('packageList').innerHTML = template <--- also works
+
   let packageElement = document.getElementById('packageList')
   packageElement.innerHTML = template
 }
